@@ -23,7 +23,7 @@ try:
         print('RESOURCE: ' + resource)
         list_param = resource.split('/')
         html_answer = '<html><body><h1>Bienvenido a la ' +
-                      'calculadora-simple web</h1>'
+                    'calculadora-simple web</h1>'
         if len(list_param) != NUM_ARGS:
             print('ERROR!!')
             sol = "<num1> <operator> <num2>"
