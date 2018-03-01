@@ -10,7 +10,7 @@ mySocket.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
 mySocket.bind(('localhost', 1235))
 mySocket.listen(5)
 
-NUM_ARGS = 3;
+NUM_ARGS = 3
 
 try:
     while True:
@@ -23,7 +23,7 @@ try:
         print('RESOURCE: ' + resource)
         list_param = resource.split('/')
         html_answer = '<html><body><h1>Bienvenido a la ' +
-                        'calculadora-simple web</h1>'
+                      'calculadora-simple web</h1>'
         if len(list_param) != NUM_ARGS:
             print('ERROR!!')
             sol = "<num1> <operator> <num2>"
